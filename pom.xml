@@ -11,6 +11,12 @@
   <name>Lidalia Coding Standards</name>
   <description>Various rules &amp; configurations for coding standard tools.</description>
   <url>https://github.com/Mahoney/coding-standards</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+
   <licenses>
     <license>
       <name>MIT X11 License</name>
