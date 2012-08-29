@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>uk.org.lidalia</groupId>
-    <artifactId>coding-standards</artifactId>
+    <artifactId>java-coding-standards</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
   <name>Lidalia Coding Standards</name>
