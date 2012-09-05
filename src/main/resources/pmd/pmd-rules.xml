@@ -111,7 +111,6 @@
    <rule ref="rulesets/j2ee.xml/RemoteInterfaceNamingConvention"/>
    <rule ref="rulesets/j2ee.xml/DoNotCallSystemExit"/>
    <rule ref="rulesets/j2ee.xml/StaticEJBFieldShouldBeFinal"/>
-   <rule ref="rulesets/j2ee.xml/DoNotUseThreads"/>
    <rule ref="rulesets/optimizations.xml/LocalVariableCouldBeFinal"/>
    <rule ref="rulesets/optimizations.xml/MethodArgumentCouldBeFinal"/>
    <rule ref="rulesets/optimizations.xml/AvoidInstantiatingObjectsInLoops"/>
@@ -165,7 +164,6 @@
    <rule ref="rulesets/imports.xml/DontImportJavaLang"/>
    <rule ref="rulesets/imports.xml/UnusedImports"/>
    <rule ref="rulesets/imports.xml/ImportFromSamePackage"/>
-   <rule ref="rulesets/imports.xml/TooManyStaticImports"/>
    <rule ref="rulesets/junit.xml/JUnitStaticSuite"/>
    <rule ref="rulesets/junit.xml/JUnitSpelling"/>
    <rule ref="rulesets/junit.xml/JUnitAssertionsShouldIncludeMessage"/>
@@ -219,7 +217,11 @@
    <rule ref="rulesets/codesize.xml/NcssMethodCount"/>
    <rule ref="rulesets/codesize.xml/NcssTypeCount"/>
    <rule ref="rulesets/codesize.xml/NcssConstructorCount"/>
-   <rule ref="rulesets/codesize.xml/TooManyMethods"/>
+   <rule ref="rulesets/codesize.xml/TooManyMethods">
+     <properties>
+       <property name="maxmethods" value="30"/>
+     </properties>
+   </rule>
    <rule ref="rulesets/finalizers.xml/EmptyFinalizer"/>
    <rule ref="rulesets/finalizers.xml/FinalizeOnlyCallsSuperFinalize"/>
    <rule ref="rulesets/finalizers.xml/FinalizeOverloaded"/>
