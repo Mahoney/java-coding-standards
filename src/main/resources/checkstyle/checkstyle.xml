@@ -6,7 +6,7 @@
 -->
 <!--
     Checkstyle-Configuration: Lidalia CheckStyle
-    Description: 
+    Description:
 Slightly modified version of Sun Checks that better matches the default code formatter setting of Eclipse.
 -->
 <module name="Checker">
@@ -72,6 +72,7 @@ Slightly modified version of Sun Checks that better matches the default code for
     <module name="EqualsHashCode"/>
     <module name="HiddenField">
       <property name="ignoreConstructorParameter" value="true"/>
+      <property name="ignoreSetter" value="true"/>
     </module>
     <module name="IllegalInstantiation"/>
     <module name="InnerAssignment"/>
@@ -130,5 +131,8 @@ Slightly modified version of Sun Checks that better matches the default code for
     <property name="severity" value="ignore"/>
     <property name="format" value="\s+$"/>
     <property name="message" value="Line has trailing spaces."/>
+  </module>
+  <module name="SuppressWithNearbyCommentFilter">
+    <property name="commentFormat" value=".*NOCHECKSTYLE.*"/>
   </module>
 </module>
