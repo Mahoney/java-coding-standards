@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>java-coding-standards</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
 
   <name>Lidalia Coding Standards</name>
   <description>Various rules &amp; configurations for coding standard tools.</description>
@@ -27,7 +27,7 @@
     <url>https://github.com/Mahoney/java-coding-standards</url>
     <connection>scm:git:git@github.com:Mahoney/java-coding-standards.git</connection>
     <developerConnection>scm:git:git@github.com:Mahoney/java-coding-standards.git</developerConnection>
-    <tag>java-coding-standards-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
 
