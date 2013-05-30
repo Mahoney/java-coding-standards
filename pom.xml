@@ -26,9 +26,10 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/Mahoney/coding-standards</url>
-    <connection>scm:git:git@github.com:Mahoney/coding-standards.git</connection>
-    <developerConnection>scm:git:git@github.com:Mahoney/coding-standards.git</developerConnection>
+    <url>https://github.com/Mahoney/java-coding-standards</url>
+    <connection>scm:git:git@github.com:Mahoney/java-coding-standards.git</connection>
+    <developerConnection>scm:git:git@github.com:Mahoney/java-coding-standards.git</developerConnection>
+    <tag>HEAD</tag>
   </scm>
 
 
