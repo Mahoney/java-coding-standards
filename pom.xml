@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>java-coding-standards</artifactId>
-  <version>1.1.0-SNAPSHOT</version>
+  <version>1.2.0-SNAPSHOT</version>
 
   <name>Lidalia Coding Standards</name>
   <description>Various rules &amp; configurations for coding standard tools.</description>
